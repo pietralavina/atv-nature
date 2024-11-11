@@ -1,0 +1,75 @@
+/*===================
+        GERAL
+===================*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*===================
+        HEADER
+===================*/
+header {
+    background-color: #3b8686;
+    padding: 20px 10vw 20px 10vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 30px 0 30px;
+}
+header nav ul li a.atual {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+/*===================
+    MAIN BANNER
+===================*/
+section.banner {
+    padding: 15vw 10vw 5vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../imagens/back-banner.png) no-repeat center;
+    background-size: cover;
+}
+section.banner h2 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    background-color: rgba(59, 134, 134, 0.5);
+    width: 40%;
+    padding: 1vw 1vw 1vw 1vw;
+}
+/*===================
+    MAIN SERVIÇOS
+===================*/
+section.servico ul {
+    display: flex;
+    text-align: center;
+}
+section.servico ul li {
+    padding: 2vw 5vw 5vw 5vw;
+}
+section.servico ul li span {
+    color: #3b8686;
+    font-size: 2rem;
+}
+section.servico ul li h3 {
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+}
+section.servico ul li p {
+    color: grey;
+    margin: 30px 0 30px 0;
+}
+section.servico ul li a {
+    background: #3b8686;
+    padding: 15px 25px 15px 25px;
+}
