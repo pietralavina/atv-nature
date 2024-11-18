@@ -67,9 +67,82 @@ section.servico ul li h3 {
 }
 section.servico ul li p {
     color: grey;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 40px 0;
 }
 section.servico ul li a {
     background: #3b8686;
     padding: 15px 25px 15px 25px;
+}
+/*===================
+     MAIN DADOS
+===================*/
+section.dados {
+    background: linear-gradient(rgba(59, 134, 134, 0.7), rgba(121, 189, 154, 0.2)), url(../imagens/back-numeros.png) no-repeat center;
+    background-size: cover;
+}
+section.dados ul {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+}
+section.dados ul li {
+    text-align: center;
+    margin: 5vw 7vw 5vw 5vw;
+    font-size: 2rem;
+    font-weight: bold;
+}
+section.dados ul li p {
+    padding: 1vw 0 0 0;
+}
+/*===================
+   MAIN ATIVIDADES
+===================*/
+section.atividades {
+    display: flex;
+    margin: 5vw 5vw 5vw 5vw;
+}
+section.atividades div h2 {
+    color: #0B486B;
+    font-size: 2rem;
+}
+section.atividades div p {
+    color: grey;
+    font-size: 1.2rem;
+    margin: 2vw 3vw 3vw 0;
+}
+section.atividades div div p a {
+    display: inline-block;
+    background-color: #0B486B;
+    padding: 1vw 2vw 1vw 2vw;
+}
+/*===================
+       FOOTER
+===================*/
+footer {
+    background: #3B8686;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 2vw 2vw 2vw 2vw;
+    align-items: center;
+}
+footer div.first ul {
+    display: flex;
+}
+footer div.first ul li span {
+    font-size: 2.5rem;
+    padding: 0 0.5vw 2vw 0vw;
+}
+footer div.second ul li {
+    padding: 1vw 0 0vw 0;
+}
+footer div.second h3 {
+    font-weight: bold;
+}
+footer div.second ul li span {
+    padding: 0 0.5vw 0 0vw;
+}
+footer div.third ul li{
+    margin: 1vw 0 1.5vw 0;
 }
